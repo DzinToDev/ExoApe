@@ -1,8 +1,13 @@
 import React from 'react'
+import NavBar from './Components/NavBar'
+import Landing from './Components/Landing'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className='w-full '>
+      <NavBar />
+      <Landing />
+    </div>
   )
 }
 

@@ -1,6 +1,18 @@
 @import "tailwindcss";
-:root {
 
+@font-face {
+  font-family: TWKL3;
+  src: url(./assets/fonts/TWKLausanne-300.b6399e7.woff2);
+}
+@font-face {
+  font-family: TWKL4;
+  src: url(./assets/fonts/TWKLausanne-400.c74d82a.woff2);
+}
+@font-face {
+  font-family: TWKL5;
+  src: url(./assets/fonts/TWKLausanne-500.eb0ea77.woff2);
+}
+:root {
   background-color: #242424;
   color: #fff;
 }
