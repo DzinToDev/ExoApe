@@ -45,10 +45,10 @@ const Landing = () => {
             <p className="sm:w-2/5">We help experience-driven companies thrive by making their audience feel the refined intricacies of their brand and product in the digital space. Unforgettable journeys start with a click.</p>
             <div className="flex justify-between">
             <a className=" border-b-1 border-zinc-200/70 pb-1 inline-block mt-8 opacity-85 sm:mt-18 sm:text-lg " href="#">The Studio</a>
-            <div className="para-2-right hidden  sm:flex items-center gap-20 sm:text-base ">
-                <div className="flex flex-col gap-2">
+            <div className="para-2-right hidden  sm:flex items-center gap-20 sm:text-base sm:items-start ">
+                <div className="flex flex-col  gap-4">
 
-            {["Work", "Studio", "News", "Contact"].map((item, index) => <a className="text-xs font-['TWKL3'] font-light" key={index} href="#">{item}</a>)}
+            {["Work", "Studio", "News", "Contact"].map((item, index) => <a className="text-xs font-['TWKL3'] font-light sm:text-base" key={index} href="#">{item}</a>)}
                 </div>
             <div className="flex  flex-col">
                 <a href="#">hello@exoape.com</a>
