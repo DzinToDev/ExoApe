@@ -12,14 +12,14 @@ const Landing = () => {
       </div>
       <div className="w-full absolute top-0">
       <div className="landing-text max-w-screen-xl 2xl:max-w-screen-2xl mx-auto px-7 sm:px-10 ">
-        <div className='para1 mt-74 text-lg font-["TWKL3"] leading-6 font-extralight opacity-85 sm:text-2xl sm:mt-[27.5rem]'>
+        <div className='para1 mt-74 text-lg font-["TWKL3"] leading-6 sm:leading-8 font-extralight opacity-85 sm:text-2xl sm:mt-[27.5rem]'>
           <p>Global digital design studio partnering</p>
           <p>with brands and businesses that create</p>
           <p>exceptional experiences where people</p>
           <p>live, work, and unwind.</p>
         </div>
 
-        <div className="herotext text-6xl mt-6 leading-14 sm:leading-none sm:text-[17vw] sm:mt-19 sm:tracking-tight">
+        <div className="herotext text-6xl mt-6 font-['TWKL3'] leading-14 sm:leading-none sm:text-[17vw] sm:mt-12 sm:tracking-tight">
           <h1>Digital</h1>
           <h1>Design</h1>
           <h1>Experience</h1>
@@ -43,10 +43,10 @@ const Landing = () => {
 
         <div className="para-2 mt-10 opacity-85  sm:text-2xl sm:mt-28">
             <p className="sm:w-2/5">We help experience-driven companies thrive by making their audience feel the refined intricacies of their brand and product in the digital space. Unforgettable journeys start with a click.</p>
-            <div className="flex justify-between">
+            <div className="flex justify-between items-center">
             <a className=" border-b-1 border-zinc-200/70 pb-1 inline-block mt-8 opacity-85 sm:mt-18 sm:text-lg " href="#">The Studio</a>
             <div className="para-2-right hidden  sm:flex items-center gap-20 sm:text-base sm:items-start ">
-                <div className="flex flex-col  gap-4">
+                <div className="flex flex-col  gap-4 opacity-85">
 
             {["Work", "Studio", "News", "Contact"].map((item, index) => <a className="text-xs font-['TWKL3'] font-light sm:text-base" key={index} href="#">{item}</a>)}
                 </div>
