@@ -12,7 +12,7 @@ const PlayReelPage = () => {
       scrollTrigger: {
         trigger: parent.current, 
         top: "0 0",
-        markers: true,
+        // markers: true,
         pin: true,
         scrub:1
       },
