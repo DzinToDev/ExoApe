@@ -70,7 +70,11 @@ const NavBar = () => {
           ))}
         </motion.div>
 
-        <motion.div className="menu flex items-end gap-2 md:hidden">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ ease: Power4.easeInOut, duration: 0.7 }}
+        className="menu flex items-end gap-2 md:hidden">
           <a className="font-['TWKL3'] font-thin text-sm opacity-80" href="#">
             Menu
           </a>
