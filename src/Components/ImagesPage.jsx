@@ -14,7 +14,7 @@ const ImagesPage = () => {
       scrollTrigger: {
         trigger: parent.current,
         top: "0 a0%",
-        markers: true,
+        // markers: true,
         scrub: 1,
       },
     });
