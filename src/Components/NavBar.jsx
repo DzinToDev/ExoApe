@@ -1,17 +1,23 @@
 import React from "react";
 import { IoIosMenu } from "react-icons/io";
+import { motion } from "framer-motion";
+import { Power4 } from "gsap";
 
 const NavBar = () => {
   return (
     <div className="w-full fixed z-40 py-7 px-7 flex items-start justify-between sm:p-12 ">
-      <div className="nav-logo">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ ease: Power4.easeInOut, duration: 0.7 }}
+        className="nav-logo"
+      >
         <svg
           viewBox="0 0 95 25"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           className="wordmark-icon text-whit w-25"
           data-v-1932cced=""
-         
         >
           <path
             d="M7.70542 17.0085C10.8808 17.2469 13.8123 15.2096 14.8524 12.0415H11.0216C10.4531 13.3929 9.1325 14.2151 7.73401 14.0885C5.56111 14.1223 3.7654 12.3119 3.7031 10.0246H15.1383V9.42253C15.1383 4.45554 12.9656 0.391646 7.64824 0.391646C5.56968 0.342653 3.56563 1.20734 2.11735 2.77806C0.66907 4.34878 -0.0925972 6.48364 0.0152567 8.66995C-0.119195 10.8796 0.639738 13.0461 2.10466 14.6345C3.56958 16.223 5.60394 17.0852 7.70542 17.0085ZM11.4473 7.22456H3.69995V7.16435C3.85008 4.98837 5.57318 3.30544 7.64509 3.31117C8.64896 3.27405 9.62348 3.67141 10.3418 4.41075C11.0601 5.15009 11.4596 6.16692 11.4473 7.22456Z"
@@ -44,17 +50,32 @@ const NavBar = () => {
             data-v-1932cced=""
           ></path>
         </svg>
-      </div>
+      </motion.div>
 
       <div className="nav-links">
-        <div className="links hidden md:flex gap-10">
-            {["Work", "Studio", "News", "Contact"].map((item, index) => <a className="text-xs font-['TWKL3'] font-light *:" key={index} href="#">{item}</a>)}
-        </div>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ ease: Power4.easeInOut, duration: 0.7 }}
+          className="links hidden md:flex gap-10"
+        >
+          {["Work", "Studio", "News", "Contact"].map((item, index) => (
+            <a
+              className="text-xs font-['TWKL3'] font-light *:"
+              key={index}
+              href="#"
+            >
+              {item}
+            </a>
+          ))}
+        </motion.div>
 
-        <div className="menu flex items-end gap-2 md:hidden">
-            <a className="font-['TWKL3'] font-thin text-sm opacity-80" href="#">Menu</a>
-        <IoIosMenu className="text-2xl" />
-        </div>
+        <motion.div className="menu flex items-end gap-2 md:hidden">
+          <a className="font-['TWKL3'] font-thin text-sm opacity-80" href="#">
+            Menu
+          </a>
+          <IoIosMenu className="text-2xl" />
+        </motion.div>
       </div>
     </div>
   );
