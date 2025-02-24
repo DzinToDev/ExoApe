@@ -2,7 +2,7 @@ import React from "react";
 
 const ImagesPage = () => {
   return (
-    <div className="w-full px-7.5 sm:px-10 bg-white pb-52 relative ">
+    <div className="w-full px-7.5 pb-20 sm:px-10 bg-white sm:pb-52 relative ">
       <div className="images-scroll w-full h-[66vh]  flex items-center justify-center relative sm:min-h-[140vh]">
         <div className="absolute z-20 w-16 h-22 right-10 top-32 sm:right-72 sm:top-72 sm:w-[10.69rem] sm:h-[15.12rem] bg-orange-300">
           <img

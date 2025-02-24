@@ -34,7 +34,7 @@ const Work = () => {
         <div className="work-container">
           <div className="work-top sm:flex w-full items-center gap-32">
             <div className="work w-full relative sm:-top-56">
-              <div className="work-video w-full h-[104vw]  mt-8 mb-3 relative sm:w-[36.5rem] sm:h-[45.5rem] ">
+              <div className="work-video w-full h-[104vw]  mt-8 mb-3 relative sm:w-[36.5rem] sm:h-[45.5rem] bg-amber-500 ">
                 <img
                   className="hidden sm:block absolute w-full h-full hover:opacity-0 object-cover object-center "
                   src="https://a.storyblok.com/f/133769/2400x2990/dd4fa8bc81/stock-dutch-design-hero.jpg/m/2400x2990/filters:quality(80)"
@@ -45,7 +45,7 @@ const Work = () => {
                   autoPlay
                   loop
                   className="w-full h-full object-center object-cover"
-                  src="https://download-video-ak.vimeocdn.com/v3-1/playback/4692069d-08ba-4820-846c-31007f25c1ee/3109df1e?__token__=st=1740382311~exp=1740396711~acl=%2Fv3-1%2Fplayback%2F4692069d-08ba-4820-846c-31007f25c1ee%2F3109df1e%2A~hmac=5090c86523fffa6550a33265527883bf8d1f7e0038632c16d59ebb9bb54e182f&r=dXMtd2VzdDE%3D"
+                  src="https://download-video-ak.vimeocdn.com/v3-1/playback/4692069d-08ba-4820-846c-31007f25c1ee/3109df1e?__token__=st=1740403580~exp=1740417980~acl=%2Fv3-1%2Fplayback%2F4692069d-08ba-4820-846c-31007f25c1ee%2F3109df1e%2A~hmac=48038cc211747a12a779a431a90b8c0043eecf4caec96ab45bc553f20d40b85f&r=dXMtd2VzdDE%3D"
                 ></video>
               </div>
               <div className="text-sm capitalize">
@@ -55,8 +55,8 @@ const Work = () => {
                 </p>
               </div>
             </div>
-            <div className="work w-full sm:mt-32">
-              <div className="work-video w-full h-[104vw] mt-8 mb-3 relative sm:w-[23.5rem] sm:h-[29.5rem]">
+            <div className="work w-full sm:mt-32 ">
+              <div className="work-video w-full h-[104vw] mt-8 mb-3 relative sm:w-[23.5rem] sm:h-[29.5rem] bg-amber-500">
                 <img
                   className="hidden sm:block absolute w-full h-full hover:opacity-0 object-cover object-center "
                   src="https://a.storyblok.com/f/133769/2409x3000/c155d3e27e/amaterasu-hero.jpg/m/1300x1619/filters:quality(90)"
@@ -67,7 +67,7 @@ const Work = () => {
                   autoPlay
                   loop
                   className="w-full h-full object-center object-cover"
-                  src="https://download-video-ak.vimeocdn.com/v3-1/playback/be1179ab-5aaa-4f63-a9a7-f40c70ae895e/96953878?__token__=st=1740382327~exp=1740396727~acl=%2Fv3-1%2Fplayback%2Fbe1179ab-5aaa-4f63-a9a7-f40c70ae895e%2F96953878%2A~hmac=94bc86f370593c14c98166b0fb06d5533cc5dfd673d92e6c39b37cf4d6572f48&r=dXMtZWFzdDE%3D"
+                  src="https://download-video-ak.vimeocdn.com/v3-1/playback/be1179ab-5aaa-4f63-a9a7-f40c70ae895e/96953878?__token__=st=1740403580~exp=1740417980~acl=%2Fv3-1%2Fplayback%2Fbe1179ab-5aaa-4f63-a9a7-f40c70ae895e%2F96953878%2A~hmac=67f3a17cade77b56132c3a8f7444854f5c0bd151d3ac0c1a3baa0202821c16a6&r=dXMtZWFzdDE%3D"
                 ></video>
               </div>
               <div className="text-sm capitalize">
@@ -91,7 +91,7 @@ const Work = () => {
                   autoPlay
                   loop
                   className="w-full h-full object-center object-cover"
-                  src="https://download-video-ak.vimeocdn.com/v3-1/playback/4bdb3586-71c8-40be-b000-2ba5691333a3/dee0a4f7?__token__=st=1740382362~exp=1740396762~acl=%2Fv3-1%2Fplayback%2F4bdb3586-71c8-40be-b000-2ba5691333a3%2Fdee0a4f7%2A~hmac=4a049b42bb9a627e45fcbd1f60577e0981b2d7c8e6f20912eefde4a37fde5574&r=dXMtY2VudHJhbDE%3D"
+                  src="https://download-video-ak.vimeocdn.com/v3-1/playback/c8169bff-def9-46a0-ab51-a3079dd79927/babd849a?__token__=st=1740403580~exp=1740417980~acl=%2Fv3-1%2Fplayback%2Fc8169bff-def9-46a0-ab51-a3079dd79927%2Fbabd849a%2A~hmac=edc89fea3e8c2844daf144b2e42817144d1c601218234765ab27bef0c0bd1f6f&r=dXMtZWFzdDE%3D"
                 ></video>
               </div>
               <div className="text-sm capitalize">
@@ -113,7 +113,7 @@ const Work = () => {
                   autoPlay
                   loop
                   className="w-full h-full object-center object-cover"
-                  src="https://download-video-ak.vimeocdn.com/v3-1/playback/c8169bff-def9-46a0-ab51-a3079dd79927/babd849a?__token__=st=1740382393~exp=1740396793~acl=%2Fv3-1%2Fplayback%2Fc8169bff-def9-46a0-ab51-a3079dd79927%2Fbabd849a%2A~hmac=f0a3b613f82ad327810c7ac3db74d57f38875c6e8713f9504177d00626263eed&r=dXMtZWFzdDE%3D"
+                  src="https://download-video-ak.vimeocdn.com/v3-1/playback/4bdb3586-71c8-40be-b000-2ba5691333a3/dee0a4f7?__token__=st=1740403580~exp=1740417980~acl=%2Fv3-1%2Fplayback%2F4bdb3586-71c8-40be-b000-2ba5691333a3%2Fdee0a4f7%2A~hmac=ce17eceb1fbb14e5f3d3bd0d284b69538d2232ab28985f1c0e63205858a29574&r=dXMtY2VudHJhbDE%3D"
                 ></video>
               </div>
               <div className="text-sm capitalize">
