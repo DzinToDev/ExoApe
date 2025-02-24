@@ -19,8 +19,7 @@ const PlayReelPage = () => {
     })
     tl.to(videoDive.current, {
      
-     width: "105%",
-     height: "105%",
+     width: "105vw",
      ease: "linear",
     },'<')
     tl.to(h1sDive.current, {
