@@ -1,9 +1,42 @@
-import React from "react";
+import { ScrollTrigger, gsap } from "gsap/all";
+import React, { useEffect, useRef } from "react";
 
 const PlayReelPage = () => {
+  const videoDive = useRef(null)
+  const h1sDive = useRef(null)
+  const h1sReel = useRef(null);
+  const parent = useRef(null)
+  useEffect(()=> {
+    gsap.registerPlugin(ScrollTrigger);
+    let tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: parent.current, 
+        top: "0 0",
+        markers: true,
+        pin: true,
+        scrub:1
+      },
+    })
+    tl.to(videoDive.current, {
+     
+     width: "105%",
+     height: "105%",
+     ease: "linear",
+    },'<')
+    tl.to(h1sDive.current, {
+      x:120,
+      opacity:0,
+      ease: "power4.out",
+    },'<')
+    tl.to(h1sReel.current, {
+      x:-120,
+      ease: "power4.out",
+      opacity:0,
+    },'<')
+  }, [])
   return (
-    <div className="w-full h-screen overflow-hidden bg-black text-zinc-200 relative">
-      <div className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  w-44 sm:w-96 ">
+    <div ref={parent} className="w-full h-screen overflow-hidden bg-black text-zinc-200 relative">
+      <div ref={videoDive} className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  w-44 sm:w-96 ">
         <video
           muted
           autoPlay
@@ -30,9 +63,9 @@ const PlayReelPage = () => {
           <h3 className="opacity-90">Work in motion</h3>
         </div>
         <h1 className=" w-full flex text-6xl items-center justify-between relative z-10 sm:w-[79%] sm:text-[9rem]">
-          <div>Play</div>
+          <div ref={h1sDive} className="absolute left-0 top-1/2 transform -translate-y-1/2">Play</div>
           <div className="sm:hidden "></div>
-          <div>Reel</div>
+          <div ref={h1sReel} className="absolute right-0 top-1/2 transform -translate-y-1/2">Reel</div>
         </h1>
         <p className="text-sm opacity-90 text-center sm:w-1/5">
           Our work is best experienced in motion. Don’t forget to put on your
