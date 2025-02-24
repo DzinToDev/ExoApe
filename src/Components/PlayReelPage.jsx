@@ -9,7 +9,7 @@ const PlayReelPage = () => {
           autoPlay
           loop
           className="w-full h-full object-center object-cover scale-1.1"
-          src="https://download-video-ak.vimeocdn.com/v3-1/playback/334619e0-f92f-4627-ba88-dfe521b4e062/9e976370?__token__=st=1740335400~exp=1740349800~acl=%2Fv3-1%2Fplayback%2F334619e0-f92f-4627-ba88-dfe521b4e062%2F9e976370%2A~hmac=0b199e07605d58247964392c1654771dc0c87c74dcdbf0514aa136ccf1b23916&r=dXMtY2VudHJhbDE%3D"
+          src="https://player.vimeo.com/progressive_redirect/playback/724832427/rendition/1080p/file.mp4?loc=external&log_user=0&signature=0ed44a0255edf7f44c0925e951a269426f3f4eb5a6c46f83df7da03d07e795aa"
         ></video>
       </div>
       <div className="overlay w-full h-full  px-7.5 py-20 sm:py-13 flex flex-col justify-between items-center">
