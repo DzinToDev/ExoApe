@@ -5,8 +5,14 @@ import Work from "./Components/Work";
 import PlayReelPage from "./Components/PlayReelPage";
 import ImagesPage from "./Components/ImagesPage";
 import Footer from "./Components/Footer";
+import LocomotiveScroll from 'locomotive-scroll';
 
 const App = () => {
+
+
+const locomotiveScroll = new LocomotiveScroll();
+
+
   return (
     <div className="w-full ">
       <NavBar />
