@@ -30,7 +30,7 @@ const ImagesPage = () => {
       imgTwo.current,
       {
         x: -100,
-         ease: Power4.easeInOut,
+         ease: "linear",
       },
       "a"
     );
