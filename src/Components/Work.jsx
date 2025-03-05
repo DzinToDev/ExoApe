@@ -69,7 +69,11 @@ const Work = () => {
                 </p>
               </div>
             </div>
-            <div className="work w-full sm:mt-32">
+            <div
+              data-scroll
+              data-scroll-speed=".1"
+              className="work w-full sm:mt-32"
+            >
               <div className="work-video w-full h-[104vw] mt-8 mb-3 relative sm:w-[23.5rem] sm:h-[29.5rem] bg-amber-500 overflow-hidden group">
                 <img
                   className="hidden sm:block absolute w-full h-full hover:opacity-0 object-cover object-center z-10 transition-opacity duration-200 group-hover:opacity-0"
@@ -94,8 +98,8 @@ const Work = () => {
           </div>
           <div className="work-bottom w-full sm:flex flex-row-reverse sm:items-baseline sm:w-[81%] gap-32 mt-2 sm:mt-20 sm:h-screen ">
             <div
-              // data-scroll
-              // data-scroll-speed=".2"
+              data-scroll
+              data-scroll-speed=".1"
               className="work w-full sm:top-12"
             >
               <div className="work-video w-full h-[104vw] bg-amber-500 mt-8 mb-3 relative sm:w-[30rem] sm:h-[37.5rem]">
