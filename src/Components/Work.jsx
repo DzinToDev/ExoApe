@@ -27,7 +27,7 @@ const Work = () => {
               <motion.span
                 initial={{ rotate: 12, y: "98%", opacity: 0 }}
                 whileInView={{ rotate: 0, y: 0, opacity: 1 }}
-                transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+                transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
                 viewport={{ once: true }}
                 className="inline-block origin-left"
               >
