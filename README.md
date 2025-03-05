@@ -29,13 +29,5 @@ This project replicates the beautiful and interactive design of Exoape's website
 - **GSAP** – High-performance animations
 - **Framer Motion** – Smooth UI interactions
 - **Locomotive Scroll** – Enhanced scrolling experience
-- **SCSS/CSS Modules** – Clean and maintainable styles
 
-## 📸 Preview
-_(Add screenshots or GIFs showcasing animations and smooth scrolling)_
 
-## 🔧 Installation & Setup
-1. **Clone the repo:**
-   ```bash
-   git clone https://github.com/your-username/exoape-clone.git
-   cd exoape-clone
